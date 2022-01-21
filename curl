@@ -1,0 +1,11 @@
+Curl es una herramienta para transferir datos desde y hacia un server. el comando esta diseñado para trabajar sin la interacción del usuario.
+
+Ofrece la capacidad de cargar archivos FTP, hacer un POST HTTP, conexiones SSL, transferir archivos y más.
+
+Puedes obtener secuencias alfanumericas usando []:
+
+ftp://ftp.example.com/file[1-100].txt
+
+Si especificas "ftp" delante de curl :// supone que quieres hablar por el protocolo FTP
+
+Curl soporta numerosos protocolos como: DICT Permite buscar palabras usando diccionarios online FILE Lee o escribe archivos locales. FTP Soporta File Transfer Protocol con muchos niveles y modificaciones HTTP Soporta HTTP con numerosas opciones IMAP Protocolo de lectura de correos, permite descargar e-mails LDAP Curl puede hacer busquedas de directorios
